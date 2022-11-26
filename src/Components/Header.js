@@ -3,8 +3,8 @@ import { Link } from 'react-router-dom';
 function Header() {
   return (
     <div className="nav-links">
-      <Link to="/">Books</Link>
-      <Link to="/categories">Categories</Link>
+      <Link key="" to="/">Books</Link>
+      <Link key="" to="/categories">Categories</Link>
     </div>
   );
 }

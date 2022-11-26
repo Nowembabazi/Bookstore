@@ -4,9 +4,9 @@ function Book(props) {
   const { title, author } = props;
   return (
     <div className="books-shelf">
-      <h2>{title}</h2>
+      <h1>{title}</h1>
       <span>{author}</span>
-      <button type="submit">Remove</button>
+      <button type="button">Remove</button>
     </div>
   );
 }
