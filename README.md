@@ -18,7 +18,7 @@
 
 ## Author
 
-👤 **Nowembabazi Nickson**
+👤 **Nowembabazi**
 
 -GitHub: @Nowembabazi
 
