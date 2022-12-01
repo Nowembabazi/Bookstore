@@ -140,14 +140,14 @@ body {
   border: none;
   border-radius: 4px;
   font-size: 0.7rem;
-  color: #fff;
-  background-color: #0290ff;
+  color: rgb(201, 186, 186);
+  background-color: #4693ce;
 }
 
 .reading-preview {
   display: flex;
   align-items: center;
-  gap: 55px;
+  gap: 56px;
 }
 
 .pre {
@@ -159,7 +159,7 @@ body {
 .reading-desc {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 24px;
 }
 
 .p-container {
@@ -186,7 +186,7 @@ body {
 }
 
 .chapter-progress {
-  border-left: 2px solid #c0c0c0;
+  border-left: 2px solid #a59c9c;
   padding: 0 45px;
 }
 
@@ -194,7 +194,7 @@ body {
   margin: 10px 0;
   font-size: 0.9rem;
   font-weight: 500;
-  color: #c0c0c0;
+  color: #e2d2d2;
 }
 
 .chapter-progress button {
