@@ -11,30 +11,30 @@ function Book(props) {
   };
 
   return (
-    <div className="book-list">
+    <div className="booking">
       <div>
-        <span className="category">Category</span>
-        <h2>{title}</h2>
-        <span className="author">{author}</span>
+        <p className="category">Category</p>
+        <h1>{title}</h1>
+        <p className="author">{author}</p>
         <div className="btn">
           <button type="submit">Comments</button>
           <button onClick={handleSubmit} type="submit">Remove</button>
           <button type="submit">Edit</button>
         </div>
       </div>
-      <div className="reading-preview">
-        <div className="pre">
-          <div className="progress" />
-          <div className="reading-desc">
-            <div className="oval" />
+      <div className="read-on">
+        <div className="first">
+          <div className="prog" />
+          <div className="read">
+            <div className="round" />
             <div className="p-container">
-              <span className="percent-complete">78%</span>
-              <span className="com">Completed</span>
+              <p className="percentage">78%</p>
+              <p className="com">Completed</p>
             </div>
           </div>
         </div>
-        <div className="chapter-progress">
-          <h3>CURRENT CHAPTER</h3>
+        <div className="chapter-head">
+          <h2>CURRENT CHAPTER</h2>
           <p>Chapter 12</p>
           <button type="submit">UPDATE PROGRESS</button>
         </div>

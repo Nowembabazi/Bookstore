@@ -13,29 +13,29 @@ html {
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #ccc1c1;
 }
 
 .nav-bar {
   display: flex;
   align-items: center;
-  padding: 15px 10%;
+  padding: 18px 10%;
   background-color: #fff;
 }
 
 .nav-bar div {
-  margin: 0 30px;
+  margin: 0 28px;
 }
 
-.nav-bar h2 {
-  color: #0290ff;
+.nav-bar h1 {
+  color: #0b8ff5;
 }
 
 .nav-bar a {
   font-weight: 700;
-  margin: 10px;
+  margin: 12px;
   text-decoration: none;
-  color: #5c5c5c;
+  color: #535151;
 }
 
 .nav-bar a:hover {
@@ -43,51 +43,57 @@ body {
 }
 
 .book-shelf {
-  margin: 25px 10%;
+  margin-top: 25px;
+  margin-bottom: 26px;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
-.book-list {
+.booking {
   display: flex;
   justify-content: space-between;
-  padding: 20px 15px;
-  margin: 30px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 16px;
+  padding-right: 18px;
+  margin: 28px 0;
   border: 1px solid #c0c0c0;
   border-radius: 5px;
-  background-color: #fff;
+  background-color: rgb(233, 219, 219);
 }
 
-.book-list * {
-  background-color: #fff;
+.booking * {
+  background-color: rgb(238, 231, 231);
 }
 
-.book-list h2 {
-  margin-top: 5px;
-  margin-bottom: 1px;
+.booking h1 {
+  margin-top: 6px;
+  margin-bottom: 2px;
   font-family: 'Roboto', sans-serif;
-  color: #1f1f1f;
+  color: #222121;
 }
 
 .category {
-  font-size: 0.9rem;
-  font-weight: 600;
+  font-size: 0.8rem;
+  font-weight: 570;
   color: #bcb9b9;
   font-family: 'Montserrat', sans-serif;
 }
 
 .author {
-  color: #0290ff;
+  color: #0a94fd;
 }
 
 .btn {
   display: flex;
-  gap: 10px;
-  margin-top: 15px;
+  gap: 12px;
+  margin-top: 16px;
 }
 
 .btn button {
   border: none;
-  font-weight: 500;
-  color: #4386bf;
+  font-weight: 480;
+  color: #3f86c5;
 }
 
 .status-btn {
@@ -104,8 +110,8 @@ body {
 }
 
 .btn button:nth-child(2) {
-  border-left: 1px solid #c0c0c0;
-  border-right: 1px solid #c0c0c0;
+  border-left: 1px solid #cac8c8;
+  border-right: 1px solid #cac8c8;
   padding: 0 10px;
 }
 
@@ -114,12 +120,12 @@ body {
 }
 
 .add-new-book {
-  margin: 20px 10%;
+  margin: 18px 10%;
   border-top: 1px solid #c0c0c0;
 }
 
 .add-new-book h2 {
-  margin: 30px 0;
+  margin: 28px 0;
   color: #c2c2c2;
 }
 
@@ -134,23 +140,26 @@ body {
 }
 
 .add-new-book button {
-  padding: 15px 25px;
-  width: 24%;
+  padding-top: 18px;
+  padding-bottom: 15px;
+  padding-left: 26px;
+  padding-right: 26px;
+  width: 26%;
   cursor: pointer;
   border: none;
-  border-radius: 4px;
+  border-radius: 8px;
   font-size: 0.7rem;
   color: rgb(201, 186, 186);
-  background-color: #4693ce;
+  background-color: #3290d8;
 }
 
-.reading-preview {
+.read-on {
   display: flex;
   align-items: center;
-  gap: 56px;
+  gap: 60px;
 }
 
-.pre {
+.first {
   display: flex;
   align-items: center;
   gap: 10px;
@@ -168,41 +177,44 @@ body {
   align-items: center;
 }
 
-.percent-complete {
-  font-size: 2.5rem;
+.percentage {
+  font-size: 2.4rem;
 }
 
-.oval {
-  border-radius: 50%;
-  border-width: 6px;
-  border: 5px solid #0290ff;
-  border-left-color: rgb(206, 205, 205);
+.round {
+  border-radius: 48%;
+  border-width: 8px;
+  border: 5px solid #1691f0;
+  border-left-color: rgb(194, 175, 175);
   transform: rotate(45deg);
 }
 
-.reading-desc .com {
-  font-size: 0.7rem;
-  color: #c0c0c0;
+.read .com {
+  font-size: 0.6rem;
+  color: #d6c8c8;
 }
 
-.chapter-progress {
+.chapter-head {
   border-left: 2px solid #a59c9c;
   padding: 0 45px;
 }
 
-.chapter-progress h3 {
+.chapter-head h2 {
   margin: 10px 0;
   font-size: 0.9rem;
-  font-weight: 500;
+  font-weight: 480;
   color: #e2d2d2;
 }
 
-.chapter-progress button {
+.chapter-head button {
   cursor: pointer;
   margin: 10px 0;
-  padding: 10px 25px;
+  padding-top: 10px;
+  padding-left: 25px;
+  padding-bottom: 12px;
+  padding-right: 26px;
   border: none;
-  border-radius: 4px;
-  color: #fff;
-  background-color: #0290ff;
+  border-radius: 5px;
+  color: rgb(236, 230, 230);
+  background-color: #1b94f0;
 }
